@@ -150,3 +150,48 @@ footer {
 .social-icon i {
   font-size: 22px;
 }
+/* RESPONSIVE HP */
+@media (max-width: 600px) {
+
+  .headerContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .holderDetailProfile {
+    margin-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .imgProfile {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .nameProfile {
+    font-size: 22px;
+  }
+
+  .titleProfile {
+    font-size: 20px;
+  }
+
+  .contentHolder {
+    padding: 0 15px;
+  }
+
+  ul.workEx {
+    margin-left: 20px;
+  }
+
+  ul.workEx li {
+    font-size: 16px;
+  }
+
+  .hobiBox {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
