@@ -1,0 +1,152 @@
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+header {
+  background-color:#FFB6C1;
+  
+  padding: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contentHolder {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.imgProfile {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+ 
+}
+
+.imgProfile:hover {
+  margin-left: -10px;
+}
+
+.holderImgProfile {
+  flex: 1;
+  text-align: center;
+}
+
+.holderDetailProfile {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.nameProfile {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+
+.titleProfile {
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+
+.hobiBox {
+  padding: 12px 20px;
+  background-color: #D8BFD8		;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  display: inline-block;
+  margin: 5px;
+}
+
+.hobiBox:hover {
+  transform: scale(1.05);
+  background-color: #eaeaea;
+}
+
+ul.workEx {
+  list-style-type: disc;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding-left: 0;
+}
+
+ul.workEx li {
+  font-size: 20px;
+  padding: 10px 0;
+  color:#BC8F8F		; /* warna teks untuk skill */
+  font-weight: 600;
+}
+
+ul.workEx li:first-child {
+  padding-top: 0;
+}
+
+.skillBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+footer {
+  background-color: #FFB6C1;
+  text-align: center;
+}
+
+.footerHolder {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.footerName {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+
+.socialLinks {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.social-icon i {
+  font-size: 22px;
+}
